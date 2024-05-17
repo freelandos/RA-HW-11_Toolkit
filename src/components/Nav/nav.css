@@ -1,0 +1,36 @@
+.nav {
+  height: 100%;
+}
+
+.nav__items {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+}
+
+.nav__item {
+  margin: 0;
+  padding: 0;
+  color: black;
+  transition: 0.3s;
+}
+
+.nav__item a {
+  color: inherit;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.nav__item:hover {
+  color: blue;
+}
+
+.nav__link-active {
+  color: blue !important;
+  border-bottom: 1px solid blue;
+}

@@ -1,0 +1,36 @@
+.movie-button {
+  margin-top: 30px;
+  padding: 10px;
+  vertical-align: middle;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.add {
+  background: #349c34;
+}
+
+.remove {
+  background: #e23636;
+}
+
+.movie {
+  display: flex;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 30px;
+  box-shadow: 0px 5px 10px 0px rgb(170, 170, 170);
+}
+
+.movie-image {
+  margin-right: 30px;
+}
+
+.movie h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}

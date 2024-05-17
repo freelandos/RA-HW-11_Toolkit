@@ -1,0 +1,19 @@
+.notFound {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.notFound__btn {
+  padding: 5px 10px;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #2563eb;
+  transition: 0.3s;
+}
+
+.notFound__btn:hover {
+  background: #2563eb;
+  color: #fff;
+}

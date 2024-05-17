@@ -1,0 +1,17 @@
+.goback-button {
+  margin-top: 30px;
+  padding: 10px;
+  vertical-align: middle;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  background: white;
+  font-size: 16px;
+  color: #2563eb;
+  text-align: center;
+  cursor: pointer;
+}
+
+.goback-button:hover {
+  background: #2563eb;
+  color: #fff;
+}

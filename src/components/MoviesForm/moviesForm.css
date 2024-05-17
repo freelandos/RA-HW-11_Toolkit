@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.form-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.form-input:focus {
+  outline: 2px solid #86b7fe;
+  outline-offset: -2px;
+}
+
+.form-button {
+  padding: 15px 25px;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  background-color:  #3b82f6;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #2563eb;
+}
